@@ -221,7 +221,7 @@ def CiFar_show(show_part="train"):
 
 
 def main():
-    MNIST_show(data_set="mnist", show_part="train")
+    MNIST_show(data_set="fashion_mnist", show_part="train")
     # CiFar_show(show_part="test")
 
     # mnist_train_border_detection()
